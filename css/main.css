@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+h1 {
+    font-size: 37px;
+}
+h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+.header {
+    background: rgba(78, 192, 254, 1);
+    background: -moz-linear-gradient(-45deg, rgba(78, 192, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -webkit-gradient(
+        left top,
+        right bottom,
+        color-stop(0%, rgba(78, 192, 254, 1)),
+        color-stop(100%, rgba(55, 144, 217, 1))
+    );
+    background: -webkit-linear-gradient(-45deg, rgba(78, 192, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78, 192, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78, 192, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: linear-gradient(135deg, rgba(78, 192, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', endColorstr='#3790d9', GradientType=1 );
+
+    color: #ffffff;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.logo {
+    padding-top: 60px;
+}
+.ctawrap {
+    display: flex;
+    justify-content: space-between;
+}
+.cta {
+    margin-top: 130px;
+}
+.cta__title {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 37px;
+    font-weight: 900;
+    margin-bottom: 35px;
+    width: 570px;
+    line-height: 1.6 em;
+}
+.cta__title span {
+    font-size: 59px;
+    line-height: 1.66em;
+}
+.cta__text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    margin-bottom: 41px;
+    width: 402px;
+    line-height: 1.66em;
+}
+.cta_button {
+    background-color: #ffd429;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: #2e2a1b;
+    display: block;
+    width: 222px;
+    padding: 20px 0;
+    text-align: center;
+}
+.cta_button:hover {
+    background-color: #c0a330;
+    transition: all 0.5s ease;
+}
+.ctapic {
+    padding-bottom: 75px;
+}
+.future {
+    padding-bottom: 117px;
+}
+.future__title {
+    text-align: center;
+}
+.bonus {
+    display: flex;
+    justify-content: space-between;
+}
+.bonus__item {
+    text-align: center;
+    padding-top: 70px;
+    width: 303px;
+}
+.item__title {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 900;
+    font-size: 19px;
+    padding-top: 30px;
+}
+.item__text {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 18px;
+}
+
+.item__pic {
+}
+
+.order {
+    background-color: #ecf3f8;
+
+    padding-bottom: 80px;
+}
+.order__form {
+    display: flex;
+    flex-direction: column;
+    margin: 55px auto 0px;
+}
+.order__title {
+    text-align: center;
+}
+.order__item {
+    margin: 0 auto;
+}
+
+.order__input {
+    height: 48px;
+    width: 340px;
+    padding-left: 25px;
+    font-family: "Ubuntu", sans-serif;
+    flex: 400;
+    font-size: 15px;
+    color: #9f9ea2;
+    margin-bottom: 16px;
+    border: 1px solid #9f9ea2;
+}
+.order__input :last-child {
+    margin-bottom: 0px;
+}
+.order__input :last-child {
+    margin: 0px;
+}
+
+.button {
+    background-color: #ffd429;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: #2e2a1b;
+    display: block;
+    height: 56px;
+    padding: 15px 0;
+    text-align: center;
+}
+.footer {
+    background-color: #164d7a;
+}
+.footer_cr {
+    padding-top: 60px;
+    padding-bottom: 58px;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 14;
+    color: #d3d9e1;
+    text-align: center;
+}

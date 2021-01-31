@@ -1,50 +1,111 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Знакомство с CSS</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Урок 4 Верстка современного сайта</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,400&family=Open+Sans&family=Ubuntu:ital,wght@0,700;1,400&d
+
+    <link rel=" stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <body>
-    <header>
-        <img src="img/logo.jpg" alt="Logo">
+    <header class="header">
+        <div class="container">
+            <img src="img/Logo.png" alt="wayup" class="logo">
+            <div class="ctawrap">
+                <div class="cta">
+                    <div class="cta__title">
+                        <h1>С помощью верстки <br>
+                            я создам ту жизнь, о которой <br>
+                            <span>мечтаю!</span>
+                        </h1>
+                    </div>
+                    <p class="cta__text">
+                        Мои стремления + настойчивость позволят мне <br> достичь чего угодно. Я не верю в это. Я знаю
+                        это <br> на
+                        100%. Меня не
+                        остановить!
+
+                    </p>
+                    <a href="#" class="cta_button button">Двигаться к мечте!</a>
+
+                </div>
+                <div class="ctapic">
+                    <img src="img/desktop.png" alt="World Trip" class="ctawrap__pic">
+                </div>
+            </div>
+
+        </div>
 
 
-        <h1>Вступление H1</h1>
-        <p class="homeex">Это текст моего второго домашнего задания</p>
-        <p>Не верится, но мне уже удается писать свой <span>первый код на HTML</span></p>
-        <span></span>
     </header>
-    <section>
-        <h2>Что дальше? H2</h2>
-        <p>
-            Дальше, я буду получать все больше и больше опыта в разработке сайтов, что бы достичь новых вершин!
-            <a href="https://www.google.com/" target="_blank"> Прочитать больше в Google</a>
-        </p>
+    <section class="future">
+        <div class="container">
+            <h2 class="future__title">Что меня ждет впереди</h2>
+            <div class="bonus">
+                <div class="bonus__item">
+                    <img class="item__pic" src="img/icon1.jpeg" alt="Free time">
+                    <p class="item__title">Свободное время</p>
+                    <p class="item__text">Мне нужно свободное время на семью и самое настоящее</p>
+                </div>
+                <div class="bonus__item">
+                    <img class="item__pic" src="img/icon2.jpeg" alt="palm">
+                    <p class="item__title">Яркие путешествия</p>
+                    <p class="item__text">Работать откуда угодно - что может быть лучше?</p>
+                </div>
+                <div class="bonus__item">
+                    <img class="item__pic" src="img/icon3.jpeg" alt="Rocket">
+                    <p class="item__title">Создание ценности</p>
+                    <p class="item__text">Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
+                </div>
+            </div>
+
+        </div>
+
     </section>
-    <section>
-        <h2 class="titlesecsection">Что я буду уметь? H2</h2>
-        <p class="textsecsection">Я смогу создавать такие замечательные формы</p>
-        <input type="text" placeholder="Имя"> <input type="email" placeholder="E-mail"> <input type="tel"
-            placeholder="Телефон"> <input type="button" value="Отправить форму">
-        <p class="prelist">А также, я научусь создавать списки: </p>
-        <ul class="list">
-            <li>С одним пунктом</li>
-            <li>С несколькими пунктами</li>
-            <li>И даже с тремя отдельными пунктами</li>
-        </ul>
+    <section class="order">
+        <div class="container">
+            <h2 class="order__title">Форма заказа билета в будущее</h2>
+            <form action="#" class="order__form">
+                <div class="order__item">
+                    <input class="order__input" type="text" placeholder="Имя">
+                </div>
+
+                <div class="order__item">
+                    <input class="order__input" type="email" placeholder="E-mail">
+                </div>
+
+                <div class="order__item">
+                    <input class="order__input" type="tel" placeholder="Телефон">
+                </div>
+
+                <div class="order__item">
+                    <input class="order__input" type="text" placeholder="Куда я полечу в ближайшее время">
+                </div>
+                <div class="order__item">
+                    <button class="order__input button" type="submit" formaction="#">
+                        Двигаться к мечте!
+                    </button>
+                </div>
+
+            </form>
+
+
+        </div>
+
     </section>
-    <footer>
-        <h2>Отличное начало!</h2>
-        <a href="https://wayup.in/cabinet/course10/unit1/lesson1" target="_blank">Перейти на страницу первого занятия
-            курса</a>
+    <footer class="footer">
+        <div class="container">
+            <p class="footer_cr">© Все мои мечты защищены моим трудолюбием</p>
+
+        </div>
+
     </footer>
-
-
-
 </body>
 
 </html>
