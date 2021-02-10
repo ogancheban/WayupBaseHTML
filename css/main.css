@@ -70,7 +70,7 @@ h2 {
     font-family: "Ubuntu", sans-serif;
     font-size: 37px;
     font-weight: 900;
-    margin-bottom: 35px;
+    
     width: 570px;
     line-height: 1.6 em;
 }
@@ -81,7 +81,7 @@ h2 {
 .cta__text {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
-    margin-bottom: 41px;
+    margin-bottom: 35px;
     width: 402px;
     line-height: 1.66em;
 }
@@ -104,6 +104,9 @@ h2 {
 .ctapic {
     padding-bottom: 75px;
 }
+.ctawrap__pic {
+    width: auto;
+}
 .future {
     padding-bottom: 117px;
 }
@@ -119,6 +122,10 @@ h2 {
     padding-top: 70px;
     width: 303px;
 }
+.item__pic {
+    width: 60px;
+    height: 60px;
+}
 .item__title {
     font-family: "Ubuntu", sans-serif;
     font-weight: 900;
@@ -130,9 +137,6 @@ h2 {
     font-weight: 400;
     font-size: 15px;
     padding-top: 18px;
-}
-
-.item__pic {
 }
 
 .order {
@@ -194,4 +198,98 @@ h2 {
     font-weight: 14;
     color: #d3d9e1;
     text-align: center;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .ctawrap {
+        flex-direction: column;
+    }
+    .cta__title {
+        width: 100%%;
+        margin: 0 auto;
+    }
+    span {
+        margin: 0 auto;
+    }
+    .cta__text {
+        margin: 41px auto;
+        width: 100%;
+    }
+   
+    .ctapic {
+        margin: 0 auto;
+    }
+    .cta_button {
+        margin: 0 auto;
+    }
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .cta__text {
+        margin: 41px auto;
+        width: 100%;
+   
+}
+@media screen and (max-width: 768px) {
+ 
+    .container {
+        max-width: 540px;
+        margin: 0 auto;
+        
+        
+    }
+  
+  .ctawrap__pic {
+      width: 100%;
+        margin: 0 auto;
+    }
+    .bonus {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .bonus__item {
+        margin: 0 auto;
+    }
+    h1 {
+        
+            margin: 0 auto;
+    }
+}
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        margin: o auto;
+    }
+    .ctawrap {
+         width: 100%;
+
+    }
+    .cta__title {
+
+        width:320px;
+       
+       
+    }
+    span {
+        width: 90%;
+    }
+    h1 {
+
+        width: 100%;
+    }
+   .order__input {
+        width: 100%;
+    }
+     .order__item {
+        width: 100%;
+    }
+
 }
