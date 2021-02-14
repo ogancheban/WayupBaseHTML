@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,
          maximum-scale=1.0, minimum-scale=1.0, user-scalable=no,
-          target-densityDpi=device-dpi" />
-    <title>Урок 5 Погружение в адаптивностть</title>
+          target-densityDpi=device-dpi">
+    <title>Урок 6 ШАГ ВО FRONTEND: JAVASCRIPT</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,400&family=Open+Sans&family=Ubuntu:ital,wght@0,700;1,400&d">
+    <link rel="stylesheet" href="css/animate.min.css">
 
     <link rel=" stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/main.css">
@@ -21,21 +22,21 @@
         <div class="container">
             <img src="img/Logo.png" alt="wayup" class="logo">
             <div class="ctawrap">
-                <div class="cta">
-                    <div class="cta__title">
+                <div class="cta animate__animated ">
+                    <div class="cta__title animate__animated animate__zoomInDown">
                         <h1>С помощью верстки я создам ту жизнь, о которой
-                            <span>мечтаю!</span>
+                            <span class="cta__span" id="span">мечтаю!</span>
                         </h1>
                     </div>
-                    <p class="cta__text">
+                    <p class="cta__text animate__animated animate__lightSpeedInLeft animate__slow animate__delay-1s">
                         Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на
                         100%. Меня не остановить!
 
                     </p>
-                    <a href="#" class="cta_button button">Двигаться к мечте!</a>
+                    <a href="#" class="cta_button button" id="btnone">Двигаться к мечте!</a>
 
                 </div>
-                <div class="ctapic">
+                <div class="ctapic animate__animated animate__fadeInRightBig animate__delay-2s">
                     <img src="img/desktop.png" alt="World Trip" class="ctawrap__pic">
                 </div>
             </div>
@@ -49,10 +50,11 @@
             <h2 class="future__title">Что меня ждет впереди</h2>
             <div class="bonus">
                 <div class="bonus__item">
-                    <img class="item__pic" src="img/icon1.jpeg" alt="Free time">
+                    <img class="item__pic" src="img/icon1.jpeg" alt="palm">
                     <p class="item__title">Свободное время</p>
                     <p class="item__text">Мне нужно свободное время на семью и самое настоящее</p>
                 </div>
+
                 <div class="bonus__item">
                     <img class="item__pic" src="img/icon2.jpeg" alt="palm">
                     <p class="item__title">Яркие путешествия</p>
@@ -106,6 +108,9 @@
         </div>
 
     </footer>
+
+    <script src="js/main.js"></script>
+
 </body>
 
 </html>
